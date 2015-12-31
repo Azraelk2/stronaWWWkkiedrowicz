@@ -1,46 +1,101 @@
 body
-{
-	background-color: grey;
-	font: Verdana;
-	font-size: 20px;
-	color: white;
-}
+	{
+		background: url('img/logo.jpg');
+		font: Verdana;
+		font-size: 20px;
+		color: white;
+	}
 
 h1
-{
-	font-size: 48px;
-}
-
+	{
+		font-size: 48px;
+	}
+a.link
+	{
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	height: 30px;
+	}
 a:link
-{
-	color: yellow;
-}
+	{
+		color: white;
+	}
 
 a:visited
-{
-	color: yellow;
-}
+	{
+		color: white;
+	}
 
 a:hover
-{
-	color: cyan;
-}
+	{
+		color: cyan;
+	}
 
 #container
 		{
 		  width: 1000px;
 		  margin-left: auto;
 		  margin-right: auto;
+		  
 		}
-		#logo
+#logo
 		{
-			background-color: black;
+			background-color: #7a7a74;
 			text-align: center;
-			padding: 15px;
-		}
-		#nav
-		{
-			background-color: red;
-			text-align: left;
 			padding: 5px;
+			opacity: 0.8;
 		}
+
+#nav
+		{
+			background-color: #ad2313;
+			text-align: left;
+			padding-top: 10px;
+			margin-top: 50px;
+			float: left;
+			padding-bottom: 10px;
+			padding-left: 5px;
+			padding-right: 5px;
+			opacity: 0.8;
+			width: 150px;
+		}
+#content
+		{
+			float: left;
+			margin-left: 40px;
+			margin-top: 50px;
+			background-color: black;
+			opacity: 0.8;
+			height: 350px;
+			width: 800px;
+			text-align: justify;
+			
+			
+		}
+.menu
+	{
+		float: bottom;
+		cursor: pointer;
+		height: 30px;
+	}
+.menu:hover
+	{
+		color: #edd968;
+		cursor: pointer;	
+		background-color: #9c1202;
+	}
+
+#footer
+	{
+		background-color: #def74f;
+		text-align: center;
+		margin-top: 110px;
+		color: #6e6868;
+		
+	}
+
+
+
+
+	
