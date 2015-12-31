@@ -116,5 +116,11 @@ a:hover
 		padding-bottom: 10px;
 		padding-left: 20px;
 	}
-
+#text2
+	{
+		clear: both;
+		border-bottom: 2px dotted white;
+		padding-bottom: 5px;
+		border-top: 2px dotted white;
+	}
 	
